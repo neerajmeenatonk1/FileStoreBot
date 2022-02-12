@@ -13,7 +13,7 @@ async def handle_force_sub(bot: Client, cmd: Message):
         if user.status == "kicked":
             await bot.send_message(
                 chat_id=cmd.from_user.id,
-                text="sir, සමාවෙන්න ඔයාව ban කරලා තියන්නේ . support group එකෙන් අහල බලන්න [Support Group](https://t.me/senuinfinitygroup).",
+                text="sir, සමාවෙන්න ඔයාව ban කරලා තියන්නේ . support group එකෙන් අහල බලන්න [Support Group](https://t.me/groupdcbots).",
                 parse_mode="markdown",
                 disable_web_page_preview=True
             )
@@ -29,7 +29,7 @@ async def handle_force_sub(bot: Client, cmd: Message):
             return 200
         await bot.send_message(
             chat_id=cmd.from_user.id,
-            text="Sorry Join Our Channel",
+            text="Sorry😑 Join Our Channel To Use Me ❗",
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
