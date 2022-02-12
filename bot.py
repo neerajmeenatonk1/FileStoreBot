@@ -88,7 +88,7 @@ async def main(bot: Client, message: Message):
                 return
 
         if message.from_user.id in Config.BANNED_USERS:
-            await message.reply_text("Sorry, You are banned!\n\nContact [Support Group](https://t.me/senuinfinitygroup)",
+            await message.reply_text("Sorry, You are banned!\n\nContact [Support Group](https://t.me/groupdcbots)",
                                      disable_web_page_preview=True)
             return
 
@@ -115,7 +115,7 @@ async def main(bot: Client, message: Message):
         try:
             forwarded_msg = await message.forward(Config.DB_CHANNEL)
             file_er_id = str(forwarded_msg.message_id)
-            share_link = f"https://t.me/{Config.BOT_USERNAME}?start=senuinfinity_{str_to_b64(file_er_id)}"
+            share_link = f"https://t.me/{Config.BOT_USERNAME}?start=dc_{str_to_b64(file_er_id)}"
             CH_edit = await bot.edit_message_reply_markup(message.chat.id, message.message_id,
                                                           reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(
                                                               "Get Sharable Link", url=share_link)]]))
@@ -336,7 +336,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 user = await bot.get_chat_member(int(Config.UPDATES_CHANNEL), cmd.message.chat.id)
                 if user.status == "kicked":
                     await cmd.message.edit(
-                        text="Boss සමාවෙන්න ඔයාට මාව use කරන්න බැහැ  😥. Contact my [Support Group](https://t.me/groupdcbots).",
+                        text="Boss 😥. Contact my [Support Group](https://t.me/groupdcbots).",
                         parse_mode="markdown",
                         disable_web_page_preview=True
                     )
@@ -360,7 +360,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 return
             except Exception:
                 await cmd.message.edit(
-                    text="මොකක් හරි ප්‍රශ්නයක් . මගේ support group එකට කියල බලන්න [Support Group](https://t.me/senuinfinitygroup).",
+                    text="මොකක් හරි ප්‍රශ්නයක් . මගේ support group එකට කියල බලන්න [Support Group](https://t.me/groupdcbots).",
                     parse_mode="markdown",
                     disable_web_page_preview=True
                 )
@@ -417,7 +417,7 @@ async def button(bot: Client, cmd: CallbackQuery):
         if message_ids is None:
             await cmd.answer("Batch List Empty!", show_alert=True)
             return
-        await cmd.message.edit("Please wait, generating batch link ...")
+        await cmd.message.edit("Please wait 🚧, generating batch link....⏳")
         await SaveBatchMediaInChannel(bot=bot, editable=cmd.message, message_ids=message_ids)
         MediaList[f"{str(cmd.from_user.id)}"] = []
 
