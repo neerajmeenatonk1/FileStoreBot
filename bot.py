@@ -47,8 +47,8 @@ async def start(bot: Client, cmd: Message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Support Group", url="https://t.me/senuinfinitygroup"),
-                        InlineKeyboardButton("Bots Channel", url="https://t.me/senuinfinity")
+                        InlineKeyboardButton("Support Group", url="https://t.me/groupdc"),
+                        InlineKeyboardButton("Bots Channel", url="https://t.me/groupdcbots")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
@@ -282,7 +282,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 [
                     [
                         InlineKeyboardButton("Source Codes of Bot",
-                                             url="https://github.com/SenuGamerBoy/FilesStoreBot")
+                                             url="https://github.com/selfie-bd/FilesStoreDcBot")
                     ],
                     [
                         InlineKeyboardButton("Go Home", callback_data="gotohome"),
@@ -301,7 +301,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 [
                     [
                         InlineKeyboardButton("Source Codes of Bot",
-                                             url="https://github.com/SenuGamerBoy/FilesStoreBot")
+                                             url="https://github.com/selfie-bd/FilesStoreDcBot")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
@@ -319,8 +319,8 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Support Group", url="https://t.me/senuinfinitygroup"),
-                        InlineKeyboardButton("Bots Channel", url="https://t.me/senuinfinity")
+                        InlineKeyboardButton("Support Group", url="https://t.me/groupdc"),
+                        InlineKeyboardButton("Bots Channel", url="https://t.me/groupdcbots")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
@@ -336,7 +336,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 user = await bot.get_chat_member(int(Config.UPDATES_CHANNEL), cmd.message.chat.id)
                 if user.status == "kicked":
                     await cmd.message.edit(
-                        text="Boss සමාවෙන්න ඔයාට මාව use කරන්න බැහැ  😥. Contact my [Support Group](https://t.me/senuinfinitygroup).",
+                        text="Boss සමාවෙන්න ඔයාට මාව use කරන්න බැහැ  😥. Contact my [Support Group](https://t.me/groupdcbots).",
                         parse_mode="markdown",
                         disable_web_page_preview=True
                     )
@@ -344,8 +344,7 @@ async def button(bot: Client, cmd: CallbackQuery):
             except UserNotParticipant:
                 invite_link = await bot.create_chat_invite_link(int(Config.UPDATES_CHANNEL))
                 await cmd.message.edit(
-                    text="**සමාවෙන්න ඔයා මගේ Channnel එකට join වෙලා නැහැ ☹️, ඔයා අපේ channel එකට join උනොත් මේ bot use කරන්න පුලුවන්!**\n\n"
-                         "මේ bot use කරන්න පුළුවන් අපේ telegram channel එකට join උන අයට විතරයි !",
+                    text="**Join Our Channel For More features ❗**",
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
@@ -373,8 +372,8 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Support Group", url="https://t.me/senuinfinitygroup"),
-                        InlineKeyboardButton("Bots Channel", url="https://t.me/senuinfinity")
+                        InlineKeyboardButton("Support Group", url="https://t.me/groupdcbots"),
+                        InlineKeyboardButton("Bots Channel", url="https://t.me/groupdcbots")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
