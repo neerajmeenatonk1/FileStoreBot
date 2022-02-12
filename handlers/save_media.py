@@ -48,13 +48,13 @@ async def SaveBatchMediaInChannel(bot: Client, editable: Message, message_ids: l
         )
         share_link = f"https://t.me/{Config.BOT_USERNAME}?start=senuinfinity_{str_to_b64(str(SaveMessage.message_id))}"
         await editable.edit(
-            f"**ඔන්න files ටික මගේ database එකට දා ගත්ත !**\n\nමෙන්න මෙන්න මෙතන ඔයාගේ shareble link එක : {share_link} \n\n"
+            f"Your Link 👉  {share_link} \n\n"
             f"Just Click the link to get your files!",
             parse_mode="Markdown",
             reply_markup=InlineKeyboardMarkup(
                 [[InlineKeyboardButton("Open Link", url=share_link)],
-                 [InlineKeyboardButton("Bots Channel", url="https://t.me/senuinfinity"),
-                  InlineKeyboardButton("Support Group", url="https://t.me/senuinfinitygroup")]]
+                 [InlineKeyboardButton("Bots Channel", url="https://t.me/groupdcbots"),
+                  InlineKeyboardButton("Support Group", url="https://t.me/groupdcbots")]]
             ),
             disable_web_page_preview=True
         )
@@ -88,13 +88,13 @@ async def SaveMediaInChannel(bot: Client, editable: Message, message: Message):
             parse_mode="Markdown", disable_web_page_preview=True)
         share_link = f"https://t.me/{Config.BOT_USERNAME}?start=senuinfinity_{str_to_b64(file_er_id)}"
         await editable.edit(
-            f"**ඔන්න files ටික මගේ database එකට දා ගත්ත !**\n\nමෙන්න මෙන්න මෙතන ඔයාගේ shareble link එක: {share_link} \n\n"
+            f"✅ Link 👉 {share_link} \n\n"
             f"📌Just Click the link to get your file!",
             parse_mode="Markdown",
             reply_markup=InlineKeyboardMarkup(
                 [[InlineKeyboardButton("Open Link", url=share_link)],
-                 [InlineKeyboardButton("🤖 Bots Channel", url="https://t.me/senuinfinity"),
-                  InlineKeyboardButton("Support Group", url="https://t.me/senuinfinitygroup")]]
+                 [InlineKeyboardButton("🤖 Bots Channel", url="https://t.me/groupdcbots"),
+                  InlineKeyboardButton("Support Group", url="https://t.me/groupdcbots")]]
             ),
             disable_web_page_preview=True
         )
