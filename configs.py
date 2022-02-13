@@ -19,32 +19,34 @@ class Config(object):
 	BANNED_CHAT_IDS = list(set(int(x) for x in os.environ.get("BANNED_CHAT_IDS", "-1001362659779 -1001255795497").split()))
 	OTHER_USERS_CAN_SAVE_FILE = bool(os.environ.get("OTHER_USERS_CAN_SAVE_FILE", True))
 	ABOUT_BOT_TEXT = f"""
-ɪ'ᴍ ᴀ ᴘᴇʀᴍᴀɴɴᴇɴᴛ ғɪʟᴇʙᴏʀᴇs sᴛᴏʀᴇ!
-ᴀʟʟ ɪ ᴡᴀɴᴛ ᴛᴏ ғɪʟᴇ ᴍᴇ, ɪ'ʟʟ ᴘᴜᴛ ᴛʜᴇᴍ ᴏɴ ᴍʏ ᴅᴀᴛᴀʙᴀsᴇ. ᴀʟsᴏ ᴡᴏʀᴋs ғᴏʀ ᴄʜᴀɴɴᴇʟ. ᴀᴅᴅ ᴍᴇ ᴛᴏ ᴄʜᴀɴɴᴇʟ ᴀs ᴀᴅᴍɪɴ, ɪ ᴡɪʟʟ ᴀᴅᴅ sᴀᴠᴇ ᴜᴘʟᴏᴀᴅᴇᴅ ғɪʟᴇ ɪɴ ᴄʜᴀɴɴᴇʟ & ᴀᴅᴅ sʜᴀʀᴀʙʟᴇ ʙᴜᴛᴛᴏɴ ʟɪɴᴋ.
+මම Permanent Files Store Bot 🤖 කෙනෙක්!
+මට ඕනේ files එවන්න මන් ඒවා මගේ database එකට දා ගන්නම් 😏. Also works for channel. Add me to channel as Admin with Edit Permission, I will add Save Uploaded File in Channel & add Sharable Button Link.
 
-🤖 ᴍʏ ɴᴀᴍᴇ: [ғɪʟᴇs sᴛᴏʀᴇ ʙᴏᴛ] (ʜᴛᴛᴘs://ᴛ.ᴍᴇ/ {ʙᴏᴛ_ᴜsᴇʀɴᴀᴍᴇ})
+🤖 **මගේ නම:** [Files Store Bot](https://t.me/{BOT_USERNAME})
 
-📝 ɪ ᴡᴀs ᴍᴀᴅᴇ: [ᴘʏᴛʜᴏɴ𝟹] (ʜᴛᴛᴘs://ᴡᴡᴡ.ᴘʏᴛʜᴏɴ.ᴏʀɢ)
+📝 **මාව හැදුවේ :** [Python3](https://www.python.org)
 
-📚 ʟɪʙʀᴀʀʏ: [ᴘʏʀᴏɢʀᴀᴍ] (ʜᴛᴛᴘs://ᴅᴏᴄs.ᴘʏʀᴏɢʀᴀᴍ.ᴏʀɢ)
+📚 **Library:** [Pyrogram](https://docs.pyrogram.org)
 
-ɪ ʟɪᴠᴇ ɪɴ ᴛʜᴇ ʜᴇʀᴋᴜ sᴇʀᴠᴇʀ: [ʜᴇʀᴋᴜ] (ʜᴛᴛᴛ://ʜᴇʀᴏᴋᴜ.ᴄᴏᴍ)
+📡 **මන් ජිවත් වෙන්නේ Heroku server එකේ:** [Heroku](https://heroku.com)
 
-👥 ʜᴇʟᴘ ɴᴇᴇᴅs ʜᴇʟᴘ ᴡɪᴛʜ: [ᴛʜᴀɴɪᴍᴀɪ sᴜᴘᴘᴏʀᴛ] (ʜᴛᴛᴘs://ᴛ.ᴍᴇ/ᴛʜᴀɴɪᴍᴀɪsᴜᴘᴘᴏʀᴛ)
+🧑🏻‍💻 **මාව හැදුවේ නම කියන්න අකමැති කෙනෙක්:** @senuinfinity
 
-📢 ᴍʏ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ: [ᴛʜᴀɴɪᴍᴀɪʙᴏᴛs] (ʜᴛᴛᴘs://ᴛ.ᴍᴇ/ᴛʜᴀɴɪᴍᴀɪʙᴏᴛs)
+👥 **උදව් ඕනෙද මේ group එකෙන් උදව් ගන්න:** [Senu Infinity Support](https://t.me/senuinfinitygroup)
+
+📢 **මගේ update channel එක:** [Senu Infinity](https://t.me/senuinfinity)
 """
-       ABOUT_DEV_TEXT = f"""
-🧑🏻💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ: @sᴀʀʙᴜᴅᴇᴇɴ𝟽𝟾𝟼
+	ABOUT_DEV_TEXT = f"""
+🧑🏻‍💻 **Developer:** @senuinfinity
 
-ɪ'ᴍ ɢᴏɪɴɢ ᴛᴏ sᴄʜᴏᴏʟ sᴛɪʟʟ. ɪғ ʏᴏᴜ ᴄᴀɴ, ᴅᴏ ᴛʜɪs ᴛᴏ ᴅᴏ ᴛʜɪs.
+මාව හදපු කෙනා තාම මන් ඉස්කෝලේ යනවා . පුලුවන්නම් Donate කරාන්න මේ දේවල් පවත්වාගෙන යන්න.
 
-ʏᴏᴜ sᴀɪᴅ ᴛʜᴀᴛ ɪғ ᴍʏ ᴅᴀᴛᴀʙᴀsᴇ ᴡᴀs ʙᴀᴅ, ɪᴍᴏᴠᴇ ᴡɪʟʟ ɪᴍᴍᴇᴅɪᴀᴛᴇʟʏ
+📌ඔන්න කිව්වා මගේ database එකට නරක ඒවා දැම්මොත් එවෙලේම remove කරනවා
 
-[ᴅᴏɴᴀᴛᴇ ɴᴏᴡ] (ᴄᴏᴏᴍɪɴɢ sᴏᴏɴ) (ᴘᴀʏᴘᴀʟ)
+[Donate Now](Cooming Soon) (PayPal)
 """
-       HOME_TEXT = """
-ʜɪ, [ᴛɢ: // ᴜsᴇʀ? ɪᴅ = {}) \ ɴᴛʜɪs {}) \}) \}) \}) \
+	HOME_TEXT = """
+Hi, [{}](tg://user?id={})\n\nThis is Permanent **File Store Bot**.
 
-sᴇɴᴅ ᴍᴇ ғɪʟᴇ ɪ ᴡɪʟʟ ɢɪᴠᴇ sʜᴀʀᴀʙʟᴇ ʟɪɴᴋ. ɪ sᴜᴘᴘᴏʀᴛ ᴄʜᴀɴɴᴇʟ ᴀʟsᴏ! ᴄʜᴇᴄᴋ ᴀʙᴏᴜᴛ ʙᴏᴛ ʙᴜᴛᴛᴏɴ.
+Send me any file I will give you a permanent Sharable Link. I Support Channel Also! Check **About Bot** Button.
 """
