@@ -93,8 +93,8 @@ async def SaveMediaInChannel(bot: Client, editable: Message, message: Message):
             parse_mode="Markdown",
             reply_markup=InlineKeyboardMarkup(
                 [[InlineKeyboardButton("Open Link", url=share_link)],
-                 [InlineKeyboardButton("🤖 Bots Channel", url="https://t.me/groupdcbots"),
-                  InlineKeyboardButton("Support Group", url="https://t.me/groupdcbots")]]
+                 [InlineKeyboardButton("🤖 Bots Channel", url="https://t.me/thanimaibots"),
+                  InlineKeyboardButton("Support Group", url="https://t.me/thanimaisupport")]]
             ),
             disable_web_page_preview=True
         )
