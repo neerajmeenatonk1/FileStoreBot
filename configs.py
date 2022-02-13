@@ -39,13 +39,15 @@ class Config(object):
 
 """
 	ABOUT_DEV_TEXT = f"""
-🧑🏻‍💻 **Developer:** @senuinfinity
 
-මාව හදපු කෙනා තාම මන් ඉස්කෝලේ යනවා . පුලුවන්නම් Donate කරාන්න මේ දේවල් පවත්වාගෙන යන්න.
+🧑🏻💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ: @Sarbudeen786
 
-📌ඔන්න කිව්වා මගේ database එකට නරක ඒවා දැම්මොත් එවෙලේම remove කරනවා
+ɪ'ᴍ ɢᴏɪɴɢ ᴛᴏ sᴄʜᴏᴏʟ sᴛɪʟʟ. ɪғ ʏᴏᴜ ᴄᴀɴ, ᴅᴏ ᴛʜɪs ᴛᴏ ᴅᴏ ᴛʜɪs.
 
-[Donate Now](Cooming Soon) (PayPal)
+ʏᴏᴜ sᴀɪᴅ ᴛʜᴀᴛ ɪғ ᴍʏ ᴅᴀᴛᴀʙᴀsᴇ ᴡᴀs ʙᴀᴅ, ɪᴍᴏᴠᴇ ᴡɪʟʟ ɪᴍᴍᴇᴅɪᴀᴛᴇʟʏ
+
+[ᴅᴏɴᴀᴛᴇ ɴᴏᴡ] (ᴄᴏᴏᴍɪɴɢ sᴏᴏɴ) (ᴘᴀʏᴘᴀʟ)
+""
 """
 	HOME_TEXT = """
 Hi, [{}](tg://user?id={})\n\nThis is Permanent **File Store Bot**.
