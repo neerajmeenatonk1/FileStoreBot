@@ -50,7 +50,8 @@ class Config(object):
 ""
 """
 	HOME_TEXT = """
-Hi, [{}](tg://user?id={})\n\nThis is Permanent **File Store Bot**.
+ʜɪ, [{}](tg://user?id={})\n\nThis
 
-Send me any file I will give you a permanent Sharable Link. I Support Channel Also! Check **About Bot** Button.
+sᴇɴᴅ ᴍᴇ ғɪʟᴇ ɪ ᴡɪʟʟ ɢɪᴠᴇ sʜᴀʀᴀʙʟᴇ ʟɪɴᴋ. ɪ sᴜᴘᴘᴏʀᴛ ᴄʜᴀɴɴᴇʟ ᴀʟsᴏ! ᴄʜᴇᴄᴋ ᴀʙᴏᴜᴛ ʙᴏᴛ ʙᴜᴛᴛᴏɴ.
+""
 """
