@@ -19,22 +19,29 @@ class Config(object):
 	BANNED_CHAT_IDS = list(set(int(x) for x in os.environ.get("BANNED_CHAT_IDS", "-1001362659779 -1001255795497").split()))
 	OTHER_USERS_CAN_SAVE_FILE = bool(os.environ.get("OTHER_USERS_CAN_SAVE_FILE", True))
 	ABOUT_BOT_TEXT = f"""
-මම Permanent Files Store Bot 🤖 කෙනෙක්!
-මට ඕනේ files එවන්න මන් ඒවා මගේ database එකට දා ගන්නම් 😏. Also works for channel. Add me to channel as Admin with Edit Permission, I will add Save Uploaded File in Channel & add Sharable Button Link.
 
-🤖 **මගේ නම:** [Files Store Bot](https://t.me/{BOT_USERNAME})
+📝 
 
-📝 **මාව හැදුවේ :** [Python3](https://www.python.org)
 
-📚 **Library:** [Pyrogram](https://docs.pyrogram.org)
 
-📡 **මන් ජිවත් වෙන්නේ Heroku server එකේ:** [Heroku](https://heroku.com)
 
-🧑🏻‍💻 **මාව හැදුවේ නම කියන්න අකමැති කෙනෙක්:** @senuinfinity
+ɪ'ᴍ ᴀ ᴘᴇʀᴍᴀɴɴᴇɴᴛ ғɪʟᴇʙᴏʀᴇs sᴛᴏʀᴇ!
 
-👥 **උදව් ඕනෙද මේ group එකෙන් උදව් ගන්න:** [Senu Infinity Support](https://t.me/senuinfinitygroup)
+ᴀʟʟ ɪ ᴡᴀɴᴛ ᴛᴏ ғɪʟᴇ ᴍᴇ, ɪ'ʟʟ ᴘᴜᴛ ᴛʜᴇᴍ ᴏɴ ᴍʏ ᴅᴀᴛᴀʙᴀsᴇ. ᴀʟsᴏ ᴡᴏʀᴋs ғᴏʀ ᴄʜᴀɴɴᴇʟ. ᴀᴅᴅ ᴍᴇ ᴛᴏ ᴄʜᴀɴɴᴇʟ ᴀs ᴀᴅᴍɪɴ, ɪ ᴡɪʟʟ ᴀᴅᴅ sᴀᴠᴇ ᴜᴘʟᴏᴀᴅᴇᴅ ғɪʟᴇ ɪɴ ᴄʜᴀɴɴᴇʟ & ᴀᴅᴅ sʜᴀʀᴀʙʟᴇ ʙᴜᴛᴛᴏɴ ʟɪɴᴋ.
 
-📢 **මගේ update channel එක:** [Senu Infinity](https://t.me/senuinfinity)
+🤖 ᴍʏ ɴᴀᴍᴇ: [ғɪʟᴇs sᴛᴏʀᴇ ʙᴏᴛ] (https://t.me/ {bot_username})
+
+📝 ɪ ᴡᴀs ᴍᴀᴅᴇ: [ᴘʏᴛʜᴏɴ𝟹] (https://www.python.org)
+
+📚 ʟɪʙʀᴀʀʏ: [ᴘʏʀᴏɢʀᴀᴍ] (https://docs.pyrogram.org)
+
+ɪ ʟɪᴠᴇ ɪɴ ᴛʜᴇ ʜᴇʀᴋᴜ sᴇʀᴠᴇʀ: [ʜᴇʀOᴋᴜ] (https://heroku.com)
+
+👥 ʜᴇʟᴘ ɴᴇᴇᴅs ʜᴇʟᴘ ᴡɪᴛʜ: [ᴛʜᴀɴɪᴍᴀɪ sᴜᴘᴘᴏʀᴛ] (https://t.me/thanimaisupport)
+
+📢 ᴍʏ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ: [ᴛʜᴀɴɪᴍᴀɪʙᴏᴛs] (https://t.me/Thanimaibots)
+
+
 """
 	ABOUT_DEV_TEXT = f"""
 🧑🏻‍💻 **Developer:** @senuinfinity
