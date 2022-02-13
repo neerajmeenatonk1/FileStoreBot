@@ -88,7 +88,7 @@ async def main(bot: Client, message: Message):
                 return
 
         if message.from_user.id in Config.BANNED_USERS:
-            await message.reply_text("Sorry, You are banned!\n\nContact [Support Group](https://t.me/groupdcbots)",
+            await message.reply_text("Sorry, You are banned!\n\nContact [Support Group](https://t.me/thanimaisupport)",
                                      disable_web_page_preview=True)
             return
 
@@ -282,7 +282,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 [
                     [
                         InlineKeyboardButton("Source Codes of Bot",
-                                             url="https://github.com/selfie-bd/FilesStoreDcBot")
+                                             url="https://github.com/Lonelysing/Filestore")
                     ],
                     [
                         InlineKeyboardButton("Go Home", callback_data="gotohome"),
@@ -301,7 +301,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 [
                     [
                         InlineKeyboardButton("Source Codes of Bot",
-                                             url="https://github.com/selfie-bd/FilesStoreDcBot")
+                                             url="https://github.com/Lonelysing/Filestore")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
@@ -319,8 +319,8 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Support Group", url="https://t.me/groupdc"),
-                        InlineKeyboardButton("Bots Channel", url="https://t.me/groupdcbots")
+                        InlineKeyboardButton("Support Group", url="https://t.me/thanimaibots"),
+                        InlineKeyboardButton("Bots Channel", url="https://t.me/thanimaisupport")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
@@ -336,7 +336,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 user = await bot.get_chat_member(int(Config.UPDATES_CHANNEL), cmd.message.chat.id)
                 if user.status == "kicked":
                     await cmd.message.edit(
-                        text="Boss 😥. Contact my [Support Group](https://t.me/groupdcbots).",
+                        text="Boss 😥. Contact my [Support Group](https://t.me/thanimaisupport).",
                         parse_mode="markdown",
                         disable_web_page_preview=True
                     )
@@ -360,7 +360,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 return
             except Exception:
                 await cmd.message.edit(
-                    text="මොකක් හරි ප්‍රශ්නයක් . මගේ support group එකට කියල බලන්න [Support Group](https://t.me/groupdcbots).",
+                    text="මොකක් හරි ප්‍රශ්නයක් . මගේ support group එකට කියල බලන්න [Support Group](https://t.me/thanimaibots).",
                     parse_mode="markdown",
                     disable_web_page_preview=True
                 )
@@ -372,8 +372,8 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Support Group", url="https://t.me/groupdcbots"),
-                        InlineKeyboardButton("Bots Channel", url="https://t.me/groupdcbots")
+                        InlineKeyboardButton("Support Group", url="https://t.me/thanimaibots"),
+                        InlineKeyboardButton("Bots Channel", url="https://t.me/thanimaisupport")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
