@@ -20,26 +20,21 @@ class Config(object):
 	OTHER_USERS_CAN_SAVE_FILE = bool(os.environ.get("OTHER_USERS_CAN_SAVE_FILE", True))
 	ABOUT_BOT_TEXT = f"""
 
-📝 
-
-
-
-
-ɪ'ᴍ ᴀ ᴘᴇʀᴍᴀɴɴᴇɴᴛ ғɪʟᴇʙᴏʀᴇs sᴛᴏʀᴇ!
+📝 ɪ'ᴍ ᴀ ᴘᴇʀᴍᴀɴɴᴇɴᴛ ғɪʟᴇʙᴏʀᴇs sᴛᴏʀᴇ!
 
 ᴀʟʟ ɪ ᴡᴀɴᴛ ᴛᴏ ғɪʟᴇ ᴍᴇ, ɪ'ʟʟ ᴘᴜᴛ ᴛʜᴇᴍ ᴏɴ ᴍʏ ᴅᴀᴛᴀʙᴀsᴇ. ᴀʟsᴏ ᴡᴏʀᴋs ғᴏʀ ᴄʜᴀɴɴᴇʟ. ᴀᴅᴅ ᴍᴇ ᴛᴏ ᴄʜᴀɴɴᴇʟ ᴀs ᴀᴅᴍɪɴ, ɪ ᴡɪʟʟ ᴀᴅᴅ sᴀᴠᴇ ᴜᴘʟᴏᴀᴅᴇᴅ ғɪʟᴇ ɪɴ ᴄʜᴀɴɴᴇʟ & ᴀᴅᴅ sʜᴀʀᴀʙʟᴇ ʙᴜᴛᴛᴏɴ ʟɪɴᴋ.
 
-🤖 ᴍʏ ɴᴀᴍᴇ: [ғɪʟᴇs sᴛᴏʀᴇ ʙᴏᴛ] (https://t.me/{BOT_USERNAME})
+🤖 ᴍʏ ɴᴀᴍᴇ: [ғɪʟᴇs sᴛᴏʀᴇ ʙᴏᴛ](https://t.me/{BOT_USERNAME})
 
-📝 ɪ ᴡᴀs ᴍᴀᴅᴇ: [ᴘʏᴛʜᴏɴ𝟹] (https://www.python.org)
+📝 ɪ ᴡᴀs ᴍᴀᴅᴇ: [ᴘʏᴛʜᴏɴ𝟹](https://www.python.org)
 
-📚 ʟɪʙʀᴀʀʏ: [ᴘʏʀᴏɢʀᴀᴍ] (https://docs.pyrogram.org)
+📚 ʟɪʙʀᴀʀʏ: [ᴘʏʀᴏɢʀᴀᴍ](https://docs.pyrogram.org)
 
-ɪ ʟɪᴠᴇ ɪɴ ᴛʜᴇ ʜᴇʀᴋᴜ sᴇʀᴠᴇʀ: [ʜᴇʀOᴋᴜ] (https://heroku.com)
+ɪ ʟɪᴠᴇ ɪɴ ᴛʜᴇ ʜᴇʀᴋᴜ sᴇʀᴠᴇʀ: [ʜᴇʀOᴋᴜ](https://heroku.com)
 
-👥 ʜᴇʟᴘ ɴᴇᴇᴅs ʜᴇʟᴘ ᴡɪᴛʜ: [ᴛʜᴀɴɪᴍᴀɪ sᴜᴘᴘᴏʀᴛ] (https://t.me/thanimaisupport)
+👥 ʜᴇʟᴘ ɴᴇᴇᴅs ʜᴇʟᴘ ᴡɪᴛʜ: [ᴛʜᴀɴɪᴍᴀɪ sᴜᴘᴘᴏʀᴛ](https://t.me/thanimaisupport)
 
-📢 ᴍʏ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ: [ᴛʜᴀɴɪᴍᴀɪʙᴏᴛs] (https://t.me/Thanimaibots)
+📢 ᴍʏ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ: [ᴛʜᴀɴɪᴍᴀɪʙᴏᴛs](https://t.me/Thanimaibots)
 
 
 """
