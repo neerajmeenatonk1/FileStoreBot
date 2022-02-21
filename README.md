@@ -1,5 +1,5 @@
-# Infinity FilesStoreBot
-This is Telegram Parmanent Files Store Bot by [@senuinfinity](https://github.com/SenuGamerBoy/FilesStoreBot).
+# Thanimai FilesStoreBot
+This is Telegram Parmanent Files Store Bot by [💔Lonelyking💔](https://t.me//sarbudeen786).
 
 * **Language:** [Python3](https://www.python.org)
 * **Library:** [Pyrogram](https://docs.pyrogram.org)
@@ -49,5 +49,3 @@ unban_user - [user_id] Unban Any User [Owner Only]
 banned_users - Get All Banned Users [Owner Only]
 ```
 
-### Support Group:
-<a href="https://t.me/senuinfinitygroup"><img src="https://img.shields.io/badge/Telegram-Join%20Telegram%20Group-blue.svg?logo=telegram"></a>
