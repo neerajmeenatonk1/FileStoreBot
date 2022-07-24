@@ -36,7 +36,7 @@ This is Telegram Parmanent Files Store Bot by [💔Lonelyking💔](https://t.me/
 	- Put all banned channel IDs & Separate with space.
 
 ### Deploy Now:
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ItzAloneX/FileStoreBot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/neerajmeenatonk1/FileStoreBot)
 
 ## Commands:
 ```
